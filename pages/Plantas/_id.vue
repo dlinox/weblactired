@@ -43,6 +43,8 @@ export default {
 
     let prods = await fetch('https://app-lactired.lnxdev.net.pe/api/planta/productos/' + this.$route.params.id);
     let jsonp = await prods.json();
+
+    console.log(jsonp);
     this.productos = jsonp;
     this.loading = false;
   }

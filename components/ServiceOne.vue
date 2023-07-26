@@ -18,7 +18,7 @@
 
             </div>
             <div class="service_1_img">
-              <img :src="'https://app-lactired.lnxdev.net.pe' + item.prod_imagen" alt="Service Image">
+              <img :src="item.prod_imagen_url" alt="Service Image">
 
             </div>
           </div>
